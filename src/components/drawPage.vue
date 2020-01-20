@@ -36,17 +36,17 @@
       </el-option-group>
     </el-select>
     <el-button @click="start" :disabled="!btnIsAbled" type="primary">开始抽奖</el-button>
-    <div class="demo-basic--circle m-t-100">
+    <div class="demo-basic--circle" style="margin-top: 60px;">
       <div class="block" style="margin-bottom: 10px;">
         <el-avatar :size="100" :src="circleUrl"></el-avatar>
       </div>
       <span>{{winner}}</span>
     </div>
     <el-table :data="tableData" style="width: 60%; margin: 80px auto">
-      <el-table-column prop="round" label="轮次"></el-table-column>
-      <el-table-column prop="prizeName" label="奖品名称"></el-table-column>
-      <el-table-column prop="winner" label="中奖人"></el-table-column>
-      <el-table-column prop="supplier" label="礼品赞助人"></el-table-column>
+      <el-table-column width="120" prop="round" label="轮次"></el-table-column>
+      <el-table-column width="200" show-overflow-tooltip prop="prizeName" label="奖品名称"></el-table-column>
+      <el-table-column show-overflow-tooltip prop="winner" label="中奖人"></el-table-column>
+      <el-table-column show-overflow-tooltip prop="supplier" label="礼品赞助人"></el-table-column>
     </el-table>
   </div>
 </template>

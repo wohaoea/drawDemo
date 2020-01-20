@@ -9,11 +9,11 @@
     },
     {
         "name": "GUMI",
-        "imgSrc": "/static/images/test003.jpg"
+        "imgSrc": "/static/images/gumi.jpg"
     },
     {
         "name": "今天我必招财满速",
-        "imgSrc": "/static/images/test005.jpg"
+        "imgSrc": "/static/images/taijun.jpg"
     },
     {
         "name": "叶一宁",
@@ -25,7 +25,7 @@
     },
     {
         "name": "焱心",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/yanxin.jpg"
     },
     {
         "name": "喵喵要抽sp",
@@ -37,7 +37,7 @@
     },
     {
         "name": "紫筱",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/zixiu.jpg"
     },
     {
         "name": "豆豆",
@@ -49,7 +49,7 @@
     },
     {
         "name": "老司机",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/laosiji.jpg"
     },
     {
         "name": "花临",
@@ -57,11 +57,11 @@
     },
     {
         "name": "余念",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/yunian.jpg"
     },
     {
         "name": "b站丶露悦喵",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/luyue.jpg"
     },
     {
         "name": "这个一枝花",
@@ -69,7 +69,7 @@
     },
     {
         "name": "eleey",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/e.jpg"
     },
     {
         "name": "隔烟水",
@@ -77,15 +77,15 @@
     },
     {
         "name": "素衣",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/suyi.jpg"
     },
     {
-        "name": "明明",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "name": "明明大非酋",
+        "imgSrc": "/static/images/mingming.jpg"
     },
     {
         "name": "不出茨林献祭酒吞",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/xianji.jpg"
     },
     {
         "name": "甜心的真粉",
@@ -97,14 +97,14 @@
     },
     {
         "name": "雪一更",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/shanyicheng.jpg"
     },
     {
         "name": "清新的惊蛰白鹭",
         "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
     },
     {
-        "name": "酒吞饭",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "name": "头像代表我的心",
+        "imgSrc": "/static/images/jiutunfan.jpg"
     }
 ]

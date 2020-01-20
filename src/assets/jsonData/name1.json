@@ -9,31 +9,31 @@
     },
     {
         "name": "GUMI",
-        "imgSrc": "/static/images/test003.jpg"
+        "imgSrc": "/static/images/gumi.jpg"
     },
     {
         "name": "今天我必招财满速",
-        "imgSrc": "/static/images/test005.jpg"
+        "imgSrc": "/static/images/taijun.jpg"
     },
     {
         "name": "叶一宁",
         "imgSrc": "/static/images/10.jpg"
     },
     {
-        "name": "冷鸢yousa",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "name": "泠鸢yousa",
+        "imgSrc": "/static/images/leng.jpg"
     },
     {
         "name": "CC丶若言",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/ruoyan.jpg"
     },
     {
         "name": "酸菜鱼组长",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/suancaiyu.jpg"
     },
     {
         "name": "啵币币",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/bobibi.jpg"
     },
     {
         "name": "闭上眼睛静静听",
@@ -68,10 +68,6 @@
         "imgSrc": "/static/images/nvwang.jpg"
     },
     {
-        "name": "泠鸢yousa",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
-    },
-    {
         "name": "甜心的真粉",
         "imgSrc": "/static/images/txzf.jpg"
     },
@@ -85,7 +81,7 @@
     },
     {
         "name": "樛木メ",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/mu.jpg"
     },
     {
         "name": "叶月萤",
@@ -93,15 +89,15 @@
     },
     {
         "name": "坂柳有栖",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/blyx.jpg"
     },
     {
         "name": "男鹿辰巳",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/nanlu.jpg"
     },
     {
         "name": "我从不抽卡",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/congbuchouka.jpg"
     },
     {
         "name": "夜萌萌czh",
@@ -113,23 +109,23 @@
     },
     {
         "name": "祝你浪漫",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/shuita.jpg"
     },
     {
         "name": "绯弥之命",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/fei.jpg"
     },
     {
         "name": "紫筱",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/zixiu.jpg"
     },
     {
         "name": "头像代表我的心",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/jiutunfan.jpg"
     },
     {
         "name": "初景樱落",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/yingluo.jpg"
     },
     {
         "name": "这个一枝花",
@@ -137,14 +133,14 @@
     },
     {
         "name": "她们叫我月见黑",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/yuejianhei.jpg"
     },
     {
         "name": "Ì小鸟游六花",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/xiaoniao.jpg"
     },
     {
         "name": "明明大非酋",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/mingming.jpg"
     }
 ]
