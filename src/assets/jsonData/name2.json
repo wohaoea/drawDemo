@@ -1,11 +1,11 @@
 [
     {
         "name": "甜心",
-        "imgSrc": "/static/images/test001.jpg"
+        "imgSrc": "/static/images/tx.jpg"
     },
     {
         "name": "七七",
-        "imgSrc": "/static/images/test002.jpg"
+        "imgSrc": "/static/images/77.jpg"
     },
     {
         "name": "GUMI",
@@ -21,6 +21,6 @@
     },
     {
         "name": "空空伊",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/kk1.JPG"
     }
 ]

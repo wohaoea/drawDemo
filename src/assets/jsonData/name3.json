@@ -1,19 +1,15 @@
 [
     {
         "name": "甜心",
-        "imgSrc": "/static/images/test001.jpg"
+        "imgSrc": "/static/images/tx.jpg"
     },
     {
         "name": "七七",
-        "imgSrc": "/static/images/test002.jpg"
+        "imgSrc": "/static/images/77.jpg"
     },
     {
         "name": "GUMI",
         "imgSrc": "/static/images/test003.jpg"
-    },
-    {
-        "name": "CC丶别压我",
-        "imgSrc": "/static/images/test004.jpg"
     },
     {
         "name": "今天我必招财满速",
@@ -28,15 +24,7 @@
         "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
     },
     {
-        "name": "打小就挺酷",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
-    },
-    {
         "name": "CC丶若言",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
-    },
-    {
-        "name": "烈火星宫",
         "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
     }
 ]

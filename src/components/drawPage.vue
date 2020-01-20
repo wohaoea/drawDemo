@@ -43,6 +43,7 @@
       <span>{{winner}}</span>
     </div>
     <el-table :data="tableData" style="width: 60%; margin: 80px auto">
+      <el-table-column prop="round" label="轮次"></el-table-column>
       <el-table-column prop="prizeName" label="奖品名称"></el-table-column>
       <el-table-column prop="winner" label="中奖人"></el-table-column>
       <el-table-column prop="supplier" label="礼品赞助人"></el-table-column>
@@ -69,41 +70,63 @@ export default {
       prize: "",
       circleUrl:
         "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png",
-      winner: "？？？"
+      winner: "？？？",
+      nameList: nameList,
+      nameList1: nameList1,
+      nameList2: nameList2,
+      nameList3: nameList3
     };
   },
   methods: {
     start() {
       if (this.prize) {
         // 区分第一轮奖品和第二轮奖品
-        let list
-        if (this.firstGiftList.some(item => item.value === this.prize.value)) {
+        let list, drawList
+        let isFirst = this.firstGiftList.some(item => item.value === this.prize.value)
+        if (isFirst) {
           // 第一轮奖品使用赞助人名单
-          list = this.prize.value === 7 ? nameList2 : nameList;
+          list = this.prize.value === 7 ? this.nameList2 : this.nameList;
+          drawList = this.nameList
         } else {
           // 第二轮奖品使用符合抽奖资格人名单
-          list = this.prize.value === 7 ? nameList3 : nameList1;
+          list = this.prize.value === 7 ? this.nameList3 : this.nameList1;
+          drawList = this.nameList1
         }
         let luckId = Math.floor(Math.random() * list.length);
         let index = this.prize.value;
         let i = 0;
-        // 已选物品不能重复选择抽奖
-        this.$set(this.options[index], "disabled", true);
         // 开始抽奖后禁用抽奖按钮
         this.btnIsAbled = false;
         var loopImg = setInterval(() => {
-          this.circleUrl = nameList[i % nameList.length].imgSrc;
-          this.winner = nameList[i % nameList.length].name;
+          this.circleUrl = drawList[i % drawList.length].imgSrc;
+          this.winner = drawList[i % drawList.length].name;
           i++;
-          if (i === nameList.length + luckId) {
+          if (i === drawList.length + luckId) {
             // 最终锁定中奖成员头像，昵称
-            this.circleUrl = nameList[luckId].imgSrc;
-            this.winner = nameList[luckId].name;
+            this.circleUrl = drawList[luckId].imgSrc;
+            this.winner = drawList[luckId].name;
+            if (this.winner === this.prize.supplier) {
+              this.btnIsAbled = true;
+              this.$message.warning("QAQ 您抽中自己的奖品啦！请重新抽取～");
+              clearInterval(loopImg);
+              return false
+            }
             this.tableData.push({
+              round: isFirst ? '第一轮' : '第二轮',
               prizeName: this.prize.label,
-              winner: nameList[luckId].name,
+              winner: drawList[luckId].name,
               supplier: this.prize.supplier
             });
+            // 已选物品不能重复选择抽奖
+            this.$set(this.options.filter(item => item.value === index)[0], "disabled", true);
+            // 移除已中奖人
+            if (isFirst) {
+              this.nameList = this.nameList.filter(item => item.name !== this.winner)
+              this.nameList2 = this.nameList2.filter(item => item.name !== this.winner)
+            } else {
+              this.nameList1 = this.nameList1.filter(item => item.name !== this.winner)
+              this.nameList3 = this.nameList3.filter(item => item.name !== this.winner)
+            }
             clearInterval(loopImg);
           }
         }, 100);
@@ -128,13 +151,26 @@ export default {
       }
       //每一次的遍历都相当于把从数组中随机抽取（不重复）的一个元素放到数组的最后面（索引顺序为：len-1,len-2,len-3......0）
       return arr;
+    },
+    removeGift (giftList) {
+      let newGiftList
+      if (giftList.some(item => item.value === 7)) {
+        // 过滤器
+        newGiftList = giftList.filter(item => item.value !== 7)
+        newGiftList.unshift(giftList.filter(item => item.value === 7)[0])
+      } else {
+        newGiftList = giftList.filter(item => item.value !== 7)
+      }
+      return newGiftList
     }
   },
   mounted () {
     // 随机第一轮+第二轮礼物清单
     let newGiftList = this.getArrRandomly(this.options)
     this.firstGiftList = newGiftList.slice(0, Math.floor(newGiftList.length / 2))
+    this.firstGiftList = this.removeGift(this.firstGiftList)
     this.secondGiftList = newGiftList.slice(Math.floor(newGiftList.length / 2), newGiftList.length)
+    this.secondGiftList = this.removeGift(this.secondGiftList)
   }
 };
 </script>

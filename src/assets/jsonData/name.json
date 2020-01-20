@@ -1,11 +1,11 @@
 [
     {
         "name": "甜心",
-        "imgSrc": "/static/images/test001.jpg"
+        "imgSrc": "/static/images/tx.jpg"
     },
     {
         "name": "七七",
-        "imgSrc": "/static/images/test002.jpg"
+        "imgSrc": "/static/images/77.jpg"
     },
     {
         "name": "GUMI",
@@ -21,7 +21,7 @@
     },
     {
         "name": "空空伊",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/kk1.JPG"
     },
     {
         "name": "焱心",
@@ -29,7 +29,7 @@
     },
     {
         "name": "喵喵要抽sp",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/miaomiao.jpg"
     },
     {
         "name": "夜卜sama",
@@ -41,7 +41,7 @@
     },
     {
         "name": "豆豆",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/doudou.jpg"
     },
     {
         "name": "neet",
@@ -53,7 +53,7 @@
     },
     {
         "name": "花临",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/hualin.jpg"
     },
     {
         "name": "余念",
@@ -65,7 +65,7 @@
     },
     {
         "name": "这个一枝花",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/huahua.jpg"
     },
     {
         "name": "eleey",
@@ -73,7 +73,7 @@
     },
     {
         "name": "隔烟水",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/geyanshui.jpg"
     },
     {
         "name": "素衣",
@@ -88,12 +88,12 @@
         "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
     },
     {
-        "name": "甜心真粉",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "name": "甜心的真粉",
+        "imgSrc": "/static/images/txzf.jpg"
     },
     {
         "name": "跟我左手画条龙",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/hualong.jpg"
     },
     {
         "name": "雪一更",
@@ -101,6 +101,10 @@
     },
     {
         "name": "清新的惊蛰白鹭",
+        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+    },
+    {
+        "name": "酒吞饭",
         "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
     }
 ]

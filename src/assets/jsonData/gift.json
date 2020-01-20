@@ -143,5 +143,10 @@
         "value": 28,
         "label": "血脐橙一箱10斤装",
         "supplier": "余念"
+    },
+    {
+        "value": 29,
+        "label": "月卡一张",
+        "supplier": "酒吞饭"
     }
 ]
