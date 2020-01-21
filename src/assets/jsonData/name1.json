@@ -53,11 +53,11 @@
     },
     {
         "name": "舊城煙雨",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/yanyu.png"
     },
     {
         "name": "绚烂的神无月歌伎",
-        "imgSrc": "https://cube.elemecdn.com/3/7c/3ea6beec64369c2642b92c6726f1epng.png"
+        "imgSrc": "/static/images/geji.png"
     },
     {
         "name": "跟我左手画条龙",
