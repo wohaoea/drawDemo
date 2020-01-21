@@ -193,4 +193,10 @@ export default {
 .m-t-100 {
   margin-top: 100px;
 }
+.el-table .cell {
+  font-size: 16px;
+}
+.el-input--medium .el-input__inner {
+  font-size: 16px;
+}
 </style>
