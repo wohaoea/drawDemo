@@ -89,18 +89,16 @@ export default {
     everyPrize(prize) {
       if (prize) {
         // 区分第一轮奖品和第二轮奖品
-        let list, drawList
+        let drawList
         let isFirst = this.firstGiftList.some(item => item.value === prize.value)
         if (isFirst) {
           // 第一轮奖品使用赞助人名单
-          list = this.nameList;
-          drawList = this.nameList
+          drawList = this.nameList.filter(item => item.name !== prize.supplier)
         } else {
           // 第二轮奖品使用符合抽奖资格人名单
-          list = this.nameList1;
-          drawList = this.nameList1
+          drawList = this.nameList1.filter(item => item.name !== prize.supplier)
         }
-        let luckId = Math.floor(Math.random() * list.length);
+        let luckId = Math.floor(Math.random() * drawList.length);
         this.winner = drawList[luckId].name
         let index = prize.value;
         // 开始抽奖后禁用抽奖按钮
